@@ -6,8 +6,8 @@ export default function Page() {
     <div className="space-y-8">
       <h1 className="text-xl font-medium text-gray-300">Green Green NYC</h1>
       <h2>
-        Green Green NYC / advocating for a sustainable and greener future for
-        nature, society and everyday life, in New York City and beyond
+        GG NYC / Advocating for more green space and a cleaner environment in
+        New York City and beyond
       </h2>
 
       <div className="space-y-10 text-white">
