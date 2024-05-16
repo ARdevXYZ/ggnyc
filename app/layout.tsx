@@ -6,15 +6,13 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: {
-    default: 'Next.js App Router',
-    template: '%s | Next.js App Router',
+    default: 'Green Green NYC',
+    template: '%s | Green Green NYC',
   },
-  description:
-    'A playground to explore new Next.js App Router features such as nested layouts, instant loading states, streaming, and component level data fetching.',
+  description: 'Advocating for more green space in NYC and beyond',
   openGraph: {
     title: 'Next.js App Router Playground',
-    description:
-      'A playground to explore new Next.js App Router features such as nested layouts, instant loading states, streaming, and component level data fetching.',
+    description: 'Advocating for more green space in NYC and beyond',
     images: [`/api/og?title=Next.js App Router`],
   },
   twitter: {
@@ -29,16 +27,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="[color-scheme:dark]">
-      <body className="overflow-y-scroll bg-gray-1100 bg-[url('/grid.svg')] pb-36">
+      <body className="green-cone overflow-y-scroll bg-gray-700 bg-[url('/ggnyc-glyphs.svg')] bg-[length:7rem] pb-36">
         <GlobalNav />
 
         <div className="lg:pl-72">
           <div className="mx-auto max-w-4xl space-y-8 px-2 pt-20 lg:px-8 lg:py-8">
-            <div className="rounded-lg bg-vc-border-gradient p-px shadow-lg shadow-black/20">
+            {/* <div className="rounded-lg bg-vc-border-gradient p-px shadow-lg shadow-black/20">
               <div className="rounded-lg bg-black">
                 <AddressBar />
               </div>
-            </div>
+            </div> */}
 
             <div className="rounded-lg bg-vc-border-gradient p-px shadow-lg shadow-black/20">
               <div className="rounded-lg bg-black p-3.5 lg:p-6">{children}</div>

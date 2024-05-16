@@ -24,6 +24,7 @@ export default {
           cyan: '#50E3C2',
           orange: '#F5A623',
           violet: '#7928CA',
+          green: '#00FF00',
         },
       },
       backgroundImage: ({ theme }) => ({
@@ -34,10 +35,10 @@ export default {
       keyframes: ({ theme }) => ({
         rerender: {
           '0%': {
-            ['border-color']: theme('colors.vercel.pink'),
+            ['border-color']: theme('colors.vercel.green'),
           },
           '40%': {
-            ['border-color']: theme('colors.vercel.pink'),
+            ['border-color']: theme('colors.vercel.green'),
           },
         },
         highlight: {

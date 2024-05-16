@@ -2,6 +2,7 @@
 
 import { demos, type Item } from '#/lib/demos';
 import { NextLogoDark } from '#/ui/next-logo';
+import { GGNYCLogo } from './ggnyc_logo';
 import Link from 'next/link';
 import { useSelectedLayoutSegment } from 'next/navigation';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid';
@@ -21,12 +22,12 @@ export function GlobalNav() {
           className="group flex w-full items-center gap-x-2.5"
           onClick={close}
         >
-          <div className="h-7 w-7 rounded-full">
-            <NextLogoDark />
+          <div className="h-14 w-14 rounded-full border border-green-800">
+            <GGNYCLogo />
           </div>
 
           <h3 className="font-semibold tracking-wide text-gray-400 group-hover:text-gray-50">
-            App Router
+            Green Green NYC
           </h3>
         </Link>
       </div>

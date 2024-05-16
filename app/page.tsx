@@ -4,7 +4,11 @@ import Link from 'next/link';
 export default function Page() {
   return (
     <div className="space-y-8">
-      <h1 className="text-xl font-medium text-gray-300">Examples</h1>
+      <h1 className="text-xl font-medium text-gray-300">Green Green NYC</h1>
+      <h2>
+        Green Green NYC / advocating for a sustainable and greener future for
+        nature, society and everyday life, in New York City and beyond
+      </h2>
 
       <div className="space-y-10 text-white">
         {demos.map((section) => {

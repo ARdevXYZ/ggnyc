@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.green-cone {
+  background: repeating-conic-gradient(green 0%, #00ff00 25%, green 33%);
+  height: 100vh;
+  width: 100vw;
+}
+
+.green-lines {
+  background: repeating-linear-gradient(-45deg, #00ff00 2px, transparent 1rem);
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
