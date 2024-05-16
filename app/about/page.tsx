@@ -22,12 +22,7 @@ export default function Page() {
       </p>
 
       <div className="flex gap-2">
-        <ExternalLink href="https://nextjs.org/docs/app/building-your-application/routing/pages-and-layouts">
-          Docs
-        </ExternalLink>
-        <ExternalLink href="https://github.com/vercel/app-playground/tree/main/app/layouts">
-          Code
-        </ExternalLink>
+        <ExternalLink href="/take-action">Take Action</ExternalLink>
       </div>
     </div>
   );

@@ -22,7 +22,7 @@ export function GlobalNav() {
           className="group flex w-full items-center gap-x-2.5"
           onClick={close}
         >
-          <div className="h-14 w-14 rounded-full border border-green-800">
+          <div className="h-12 w-12 rounded-full border border-green-700">
             <GGNYCLogo />
           </div>
 

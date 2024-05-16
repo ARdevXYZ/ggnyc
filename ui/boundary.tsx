@@ -28,7 +28,7 @@ const Label = ({
 };
 export const Boundary = ({
   children,
-  labels = ['children'],
+  labels = ['gg nyc'],
   size = 'default',
   color = 'default',
   animateRerendering = true,
