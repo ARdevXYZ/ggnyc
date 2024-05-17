@@ -90,7 +90,7 @@
   height: 100vh;
   width: 100vw;
   background: repeating-conic-gradient(green 0%, #00ff00 25%, pink 33%);
-  animation: cycleGradient 1.75s infinite;
+  /* animation: cycleGradient 1.75s infinite; */
 }
 
 @keyframes cycleGradient {
