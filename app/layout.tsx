@@ -1,8 +1,9 @@
 import '#/styles/globals.css';
-import { AddressBar } from '#/ui/address-bar';
+// import { AddressBar } from '#/ui/address-bar';
 import Byline from '#/ui/byline';
 import { GlobalNav } from '#/ui/global-nav';
 import { Metadata } from 'next';
+import GA4Tracking from '../components/GA4Tracking';
 
 export const metadata: Metadata = {
   title: {
@@ -28,6 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="[color-scheme:dark]">
       <body className="green-cone overflow-y-scroll bg-gray-700 bg-[url('/ggnyc-glyphs.svg')] bg-[length:7rem] pb-36">
+        <GA4Tracking />
         <GlobalNav />
 
         <div className="lg:pl-72">

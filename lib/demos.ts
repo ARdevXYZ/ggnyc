@@ -25,24 +25,24 @@ export const demos: { name: string; items: Item[] }[] = [
       },
     ],
   },
-  {
-    name: 'GGNYC Initiatives',
-    items: [
-      {
-        name: 'Initiative 1',
-        slug: 'initiative-1',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      },
-      {
-        name: 'Initiative 2',
-        slug: 'initiative-2',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      },
-      {
-        name: 'Initiative 3',
-        slug: 'Initiative 3',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      },
-    ],
-  },
+  // {
+  //   name: 'GGNYC Initiatives',
+  //   items: [
+  //     {
+  //       name: 'Initiative 1',
+  //       slug: 'initiative-1',
+  //       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+  //     },
+  //     {
+  //       name: 'Initiative 2',
+  //       slug: 'initiative-2',
+  //       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+  //     },
+  //     {
+  //       name: 'Initiative 3',
+  //       slug: 'Initiative 3',
+  //       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+  //     },
+  //   ],
+  // },
 ];
