@@ -21,7 +21,7 @@ export default function Byline({ className }: { className: string }) {
             target="_blank"
             rel="noreferrer"
           >
-            Green Green NYC
+            GG NYC
           </a>
         </div>
       </div>

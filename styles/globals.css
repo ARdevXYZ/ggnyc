@@ -32,9 +32,10 @@
   padding: 0.5rem 2rem;
   font-size: 1rem;
   line-height: normal;
-  min-width: 275px;
+  /* min-width: 275px; */
   display: block;
-  margin: 1rem auto;
+  width: 100%;
+  margin: 0.25rem auto;
   background: #333333;
   font-family: 'Inter', sans-serif;
   letter-spacing: 0.75px;
