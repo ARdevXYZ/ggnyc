@@ -75,3 +75,45 @@
   margin: 0px;
   padding: 0px;
 }
+
+/*
+
+.green-cone {
+    background: repeating-conic-gradient(green 0%, #00ff00 25%, green 33%);
+    height: 100vh;
+    width: 100vw;
+}
+
+*/
+
+.green-cone {
+  height: 100vh;
+  width: 100vw;
+  background: repeating-conic-gradient(green 0%, #00ff00 25%, pink 33%);
+  animation: cycleGradient 1.75s infinite;
+}
+
+@keyframes cycleGradient {
+  0% {
+    /* background: repeating-conic-gradient(green 30%, #00ff00 25%, pink 10%); */
+    background: repeating-conic-gradient(green 30%, #00ff00 25%, #00ff55 10%);
+    /* mix-blend-mode: lighten; */
+  }
+  33% {
+    background: repeating-conic-gradient(green 10%, #00ff00 50%, green 33%);
+  }
+  66% {
+    background: repeating-conic-gradient(
+      green 40%,
+      #00ff00 50%,
+      transparent 33%
+    );
+  }
+  100% {
+    background: repeating-conic-gradient(
+      transparent 10%,
+      #00ff00 15%,
+      green 10%
+    );
+  }
+}
