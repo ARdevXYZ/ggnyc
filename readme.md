@@ -1,4 +1,4 @@
-# Next.js App Router Playground
+# GG NYC 2.0
 
 Next.js recently introduced the App Router with support for:
 

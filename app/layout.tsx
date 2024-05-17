@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   description: 'Advocating for more green space in NYC and beyond',
   openGraph: {
-    title: 'Next.js App Router Playground',
+    title: 'Green Green NYC',
     description: 'Advocating for more green space in NYC and beyond',
     images: [`/api/og?title=Next.js App Router`],
   },
