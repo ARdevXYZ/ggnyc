@@ -38,6 +38,7 @@ function ContactFormFormSpree() {
         name="firstName"
         placeholder="First Name"
         className="gg-input w-full"
+        required
       />
       <ValidationError
         prefix="First Name"
@@ -55,12 +56,13 @@ function ContactFormFormSpree() {
         name="lastName"
         placeholder="Last Name"
         className="gg-input w-full"
+        required
       />
       <ValidationError
         prefix="Last Name"
         field="lastName"
         errors={state.errors}
-        className="text-sm text-red-500"
+        className="error-msg text-sm text-red-500"
       />
 
       <label htmlFor="email" className="label-sr">
@@ -72,15 +74,17 @@ function ContactFormFormSpree() {
         name="email"
         placeholder="Email"
         className="gg-input w-full"
+        required
       />
       <ValidationError
         prefix="Email"
         field="email"
         errors={state.errors}
         className="text-sm text-red-500"
+        required
       />
 
-      {submitError && <p className="mb-3 text-red-500">{submitError}</p>}
+      {submitError && <p className="error-msg text-red-500">{submitError}</p>}
 
       <button type="submit" disabled={state.submitting} className="gg-btn">
         Submit
