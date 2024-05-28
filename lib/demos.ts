@@ -18,11 +18,6 @@ export const demos: { name: string; items: Item[] }[] = [
         slug: 'principles',
         description: 'Learn about the principles that guide GG NYC',
       },
-      {
-        name: 'Take Action',
-        slug: 'take-action',
-        description: 'Connect, stay informed, and take action with GGNYC',
-      },
     ],
   },
   {

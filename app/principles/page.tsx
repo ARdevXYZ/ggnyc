@@ -8,20 +8,37 @@ export default function Page() {
         The operations of Green Green NYC is guided by the following principles:
       </p>
       <ol>
-        <li>Honesty, integrity, transparency</li>
-        <li>Cleaner water, cleaner air, cleaner land, cleaner environment</li>
-        <li>Logistical efficiency</li>
-        <li>Energy efficiency in all endeavors</li>
         <li>
-          Create and maintain publicly-accessible digital databases related to
-          nature conservation, public parks, environmental sustainability, and
-          other correlative information resources{' '}
+          Honesty, integrity, transparency: we uphold the highest standards of
+          honesty, integrity, and transparency in all our operations.
         </li>
-        <li>Protection and conservation of coral reefs</li>
-        <li>Protection and conservation nature and wildlife</li>
         <li>
-          Advocacy for more equitable access to green space New York City and
-          beyond
+          Environmental cleanliness: we strive for cleaner water, air, land, and
+          overall environment.
+        </li>
+        <li>
+          Logistical efficiency: we aim to achieve maximum efficiency in all
+          logistical operations.
+        </li>
+        <li>
+          Energy efficiency: we prioritize energy efficiency in every endeavor.
+        </li>
+        <li>
+          Publicly-accessible digital databases: we create and maintain digital
+          databases related to nature conservation, public parks, environmental
+          sustainability, and other related information resources.
+        </li>
+        <li>
+          Coral reef conservation: we are dedicated to the protection and
+          conservation of coral reefs. 🪸
+        </li>
+        <li>
+          Nature and wildlife conservation: we commit to the protection and
+          conservation of nature and wildlife.
+        </li>
+        <li>
+          Equitable access to green spaces: we advocate for more equitable
+          access to green spaces in New York City and beyond.
         </li>
       </ol>
     </div>
