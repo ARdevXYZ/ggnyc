@@ -14,9 +14,24 @@ export const demos: { name: string; items: Item[] }[] = [
         description: 'About Green Green NYC',
       },
       {
+        name: 'Guiding Principles',
+        slug: 'principles',
+        description: 'Learn about the principles that guide GG NYC',
+      },
+      {
+        name: 'Take Action',
+        slug: 'take-action',
+        description: 'Connect, stay informed, and take action with GGNYC',
+      },
+    ],
+  },
+  {
+    name: 'Connect',
+    items: [
+      {
         name: 'Contact',
         slug: 'contact',
-        description: 'Contact Green Green NYC',
+        description: 'Contact information for Green Green NYC',
       },
       {
         name: 'Take Action',
