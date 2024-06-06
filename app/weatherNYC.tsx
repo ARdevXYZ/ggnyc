@@ -1,7 +1,27 @@
 'use client';
 import { useEffect, useState } from 'react';
 
-async function getData() {
+type WeatherData = {
+  location: {
+    name: string;
+    region: string;
+    country: string;
+  };
+  current: {
+    wind_mph: number;
+    temp_f: number;
+    temp_c: number;
+    air_quality: {
+      [key: string]: number;
+    };
+  };
+};
+
+type FetchError = {
+  message: string;
+};
+
+async function getData(): Promise<WeatherData> {
   const res = await fetch(
     'https://api.weatherapi.com/v1/current.json?key=d428e56a92084f1ba8220559240606&q=New York, New York&aqi=yes',
   );
@@ -15,8 +35,8 @@ async function getData() {
 }
 
 export default function WeatherNYC() {
-  const [data, setData] = useState(null);
-  const [error, setError] = useState(null);
+  const [data, setData] = useState<WeatherData | null>(null);
+  const [error, setError] = useState<FetchError | null>(null);
 
   useEffect(() => {
     getData()
