@@ -1,5 +1,6 @@
 import { demos } from '#/lib/demos';
 import Link from 'next/link';
+import WeatherNYC from './weatherNYC';
 
 export default function Page() {
   return (
@@ -42,6 +43,7 @@ export default function Page() {
             </div>
           );
         })}
+        <WeatherNYC />
       </div>
     </div>
   );

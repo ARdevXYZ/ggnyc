@@ -15,6 +15,17 @@
   width: 100vw;
 }
 
+.monospace-span {
+  font-family: monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5rem;
+}
+
+.widget-h {
+  margin-bottom: 1rem;
+}
+
 .gg-input {
   background: transparent;
   border: 1px solid #333333;
